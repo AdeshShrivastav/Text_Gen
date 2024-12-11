@@ -1,5 +1,21 @@
-﻿Flask==3.0.3
-pdf2image==1.17.0
-pillow==10.4.0
 diffusers @ git+https://github.com/huggingface/diffusers@bf64b32652a63a1865a0528a73a13652b201698b
-torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124
+blinker==1.9.0
+click==8.1.7
+colorama==0.4.6
+filelock==3.16.1
+Flask==3.1.0
+fsspec==2024.10.0
+itsdangerous==2.2.0
+Jinja2==3.1.4
+MarkupSafe==3.0.2
+mpmath==1.3.0
+networkx==3.4.2
+numpy==2.2.0
+pillow==11.0.0
+setuptools==75.6.0
+sympy==1.13.1
+torch==2.5.1
+torchaudio==2.5.1
+torchvision==0.20.1
+typing_extensions==4.12.2
+Werkzeug==3.1.3
