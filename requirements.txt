@@ -2,4 +2,4 @@
 pdf2image==1.17.0
 pillow==10.4.0
 diffusers @ git+https://github.com/huggingface/diffusers@bf64b32652a63a1865a0528a73a13652b201698b
-
+torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124
