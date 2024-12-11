@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Text to Image Generator</title>
+</head>
+<body>
+    <div class="flex h-screen bg-blue-400 items-center justify-center
+    border-solid">
+
+    <div class=" w-90px h-90px space-y-2 items-center justify-center text-center ">    
+    <h1 class="text-4xl text-white">Text to Image Generator</h1>
+
+    <!-- Form to input the prompt -->
+    <div class="bg-blue-300 border-solid">
+    <form action="/generate" method="post">
+        <label class="prompt text-xl space-y-2">Enter your text prompt:</label><br>
+        <input class="text" id="prompt" name="prompt" required><br><br>
+        <button type="submit">Generate Image</button>
+    </form>
+
+    {% if image_path %}
+    
+    <img src="{{ image_path }}" alt="Generated Image" width="500px">
+    <h2>Generated Image:</h2>
+    {% endif %}
+    </div>
+
+
+    </div>
+</div>
+</body>
+</html>
