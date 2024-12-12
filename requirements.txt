@@ -1,4 +1,5 @@
 diffusers @ git+https://github.com/huggingface/diffusers@bf64b32652a63a1865a0528a73a13652b201698b
+accelerate==1.2.0
 blinker==1.9.0
 certifi==2024.8.30
 charset-normalizer==3.4.0
